@@ -1,0 +1,29 @@
+# Yeeeeeeeeeeeeeeeaah
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias .......="cd ../../../../../.."
+alias ........="cd ../../../../../../.."
+alias .........="cd ../../../../../../../.."
+alias ..........="cd ../../../../../../../../.."
+alias ~='cd ~'
+alias -- -='cd -'
+
+# The Ls
+alias ls='ls -Fh --color=auto --group-directories-first'
+alias grep='grep --color=auto'
+alias l='ls -l'
+alias la='ls -lA'
+alias lr='ls -R'
+alias lf='ls -l | grep "^-"'
+alias l.f='ls -ld .* | grep "^-"'
+alias ld='ls -l | grep "^d"'
+alias l.d='ls -ld .* | grep "^d"'
+
+# Shortcuts
+alias c='clear'
+# alias cat='bat --theme=ansi-dark'
+# alias preview='fzf --layout=reverse --preview="bat --theme=ansi-dark --color=always {}"'
+
