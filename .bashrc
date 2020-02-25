@@ -4,6 +4,9 @@ for file in ~/.{aliases,aliases_private,exports,functions,functions_private}; do
 done
 unset file
 
+# Bash Completion
+source /usr/share/git/completion/git-completion.bash
+
 # Case-insensitive globbing (used in pathname expansion).
 shopt -s nocaseglob
 
