@@ -5,7 +5,7 @@ done
 unset file
 
 # Bash Completion
-source /usr/share/git/completion/git-completion.bash
+source /etc/bash_completion.d/*
 
 # Case-insensitive globbing (used in pathname expansion).
 shopt -s nocaseglob
