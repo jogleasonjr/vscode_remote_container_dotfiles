@@ -29,5 +29,5 @@ alias c='clear'
 # alias preview='fzf --layout=reverse --preview="bat --theme=ansi-dark --color=always {}"'
 
 # Terraform
-alias tfstate="echo "$PWD.terraform.tfstate" | sed -n -e 's/.*\/deploy\///p' | tr "/" ".""
+alias tfstate='echo "$PWD.terraform.tfstate" | sed -n -e "s/.*\/deploy\///p" | tr "/" "."'
 
