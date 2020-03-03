@@ -31,3 +31,6 @@ alias c='clear'
 # Terraform
 alias tfstate='echo "$PWD.terraform.tfstate" | sed -n -e "s/.*\/deploy\///p" | tr "/" "."'
 
+# Beast Mode
+alias preview='fzf --layout=reverse --preview="bat --theme=ansi-dark --color=always {}"'
+
