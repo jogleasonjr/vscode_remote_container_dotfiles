@@ -4,6 +4,8 @@ for file in ~/.{aliases,aliases_private,exports,functions,functions_private}; do
 done
 unset file
 
+export EDITOR=vim
+
 # Bash Completion
 source /etc/bash_completion.d/*
 
