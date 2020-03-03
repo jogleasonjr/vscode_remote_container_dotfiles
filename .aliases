@@ -34,3 +34,7 @@ alias tfstate='echo "$PWD.terraform.tfstate" | sed -n -e "s/.*\/deploy\///p" | t
 # Beast Mode
 alias preview='fzf --layout=reverse --preview="bat --theme=ansi-dark --color=always {}"'
 
+# 9-5 Specific
+# Get state file name based on present working directory within /deploy
+alias tfstate='echo "$PWD.terraform.tfstate" | sed -n -e "s/.*\/deploy\///p" | tr "/" "."'
+
